@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Colab and Jupyter temporary files
+.ipynb_checkpoints/
+
+# Data and Models (Avoid uploading huge weights to GitHub)
+*.npy
+*.mp4
+!data/sample_images/
+
+# System files
+.DS_Store
+Thumbs.db
